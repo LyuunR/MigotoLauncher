@@ -1,5 +1,5 @@
 # MigotoLauncher
-My very first python project, Don't blame me if its shit!!
+Launch 3dMigoto and Genshin at the same time. My very first python project, Don't blame me if its shit!!
 
 ## Using
 Build your own (OR) Use pre-built from releases
