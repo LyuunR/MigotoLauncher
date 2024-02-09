@@ -1,5 +1,6 @@
 # MigotoLauncher
-Launch 3dMigoto and Genshin at the same time. My very first python project, Don't blame me if its shit!!
+Launch Genshin + 3dMigoto in one click.
+- Disclaimer: This is my very first python project so excuse me if it's bad.
 
 ## Using
 Build your own (OR) Use pre-built from releases
