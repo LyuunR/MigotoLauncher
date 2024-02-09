@@ -17,7 +17,7 @@ print("[MigotoLauncher] If you see the 3dMigoto window feel free to close this o
 def Main(mp, gp):
     shutil.copyfile(mp+"/d3dx.ini", os.getcwd()+"/d3dx.ini")
     subprocess.run(mp+"/3dMigoto.exe", shell=False)
-    time.sleep(3)
+    time.sleep(0.3)
     subprocess.run(gp+"/GenshinImpact.exe", shell=True)
 
 GenshinPath = ConfigData['GenshinPath']

@@ -1,12 +1,13 @@
 # MigotoLauncher
-My very first python project, Don't blame me if its shit!!
+Launch Genshin + 3dMigoto in one click.
+- Disclaimer: This is my very first python project so excuse me if it's bad.
 
 ## Using
 Build your own (OR) Use pre-built from releases
 
 ## How to build
 ### Requirements
-1. PyInstaller (Optional for creating the standalone, Otherwise just run app.py)
+1. PyInstaller (Optional for creating the standalone (.exe), Otherwise just run app.py)
 2. Python (3.10+ Recommended)
 
 ### Building with PyInstaller
