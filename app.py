@@ -1,6 +1,6 @@
 import subprocess, json, time, os, shutil
 
-print("[MigotoLauncher] Starting Up...")
+print("[MigotoLauncher] Starting up...")
 defaultConfig = {"GenshinPath": "?", "MigotoPath": "?"}
 if os.path.isfile("./config.json"):
     print("[MigotoLauncher] Config file exists, Skipping creation...")
@@ -16,7 +16,7 @@ print("[MigotoLauncher] Loaded Data.")
 print("[MigotoLauncher] If you see the 3dMigoto window feel free to close this one!")
 def Main(mp, gp):
     shutil.copyfile(mp+"/d3dx.ini", os.getcwd()+"/d3dx.ini")
-    subprocess.run(mp+"/3dMigoto.exe", shell=False)
+    subprocess.run(mp+"/3DMigoto Loader.exe", shell=False)
     time.sleep(0.3)
     subprocess.run(gp+"/GenshinImpact.exe", shell=True)
 
